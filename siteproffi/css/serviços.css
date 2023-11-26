@@ -1,0 +1,93 @@
+
+
+/* Estilos específicos para a seção de serviços */
+#servicos {
+    padding: 20px;
+}
+
+.servico {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.servico:hover {
+    transform: scale(1.05);
+}
+
+.servico h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.servico p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00568c;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Cor de fundo */
+    color: #ffffff; /* Cor do texto */
+    background-image: url(../img/fundo.jpg);
+    background-size: cover;
+}
+body div{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Cor de fundo */
+    color: #000000; /* Cor do texto */
+    opacity: 0.7;
+}
+
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: #ffffff; /* Cor do texto do cabeçalho */
+    padding: 10px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

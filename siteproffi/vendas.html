@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Produtos</title>
+    <link rel="stylesheet" type="text/css" href="css/vendas.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="vendas.html">LOJA</a></li>
+                <li><a href="servicos.html">SERVIÇOS</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Produtos em Destaque</h1>
+
+    <div class="produtos">
+        <div class="produto">
+            <img src="../siteproffi/img/Mouse.jpg" alt="Produto 1">
+            <h2>Mouse gamer</h2>
+            <p>Mouse gamer 3200 dpi com fio USB 7D extreme 7cores RGB xtrem</p>
+            <p>Preço: R$37,33</p>
+            <button onclick="adicionarAoCarrinho('Mouse Gamer', 37.33)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="../siteproffi/img/monitor.jpg" alt="Produto 2">
+            <h2>Monitor Led</h2>
+            <p>Monitor Led HQ 19.5' HQ19.5 WHQ-Led HDMI preto
+                Marca: HQ</p>
+            <p>Preço: R$379,99</p>
+            <button onclick="adicionarAoCarrinho('Monitor LED', 379.99)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="../siteproffi/img/teclado.jpg" alt="Produto 3">
+            <h2>Teclado Gamer</h2>
+            <p>Vinik TECLADO GAMER VX GAMING HYDRA BRANCO ABNT2 MULTIMÍDIA COM LED AZUL SENSAÇÃO MECÂNICA USB 1.8M – GTH100BA –</p>
+            <p>Preço: R$97,20</p>
+            <button onclick="adicionarAoCarrinho('Teclado Gamer', 97.20)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="../siteproffi/img/fonte.jpg" alt="Produto 4">
+            <h2>Fonte MSI</h2>
+            <p>Fonte MSI MAG A650BN, ATX, 650W, 80 PLUS Bronze, PFC Ativo, Entrada Bivolt, Preto </p>
+            <p>Preço: R$ 259,99</p>
+            <button onclick="adicionarAoCarrinho('Fonte MSI', 259.99)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="../siteproffi/img/video2.jpg" alt="Produto 5">
+            <h2>Placa de Vídeo RTX 4060</h2>
+            <p>Placa de Vídeo RTX 4060 EAGLE OC Gigabyte NVIDIA GeForce, 8GB GDRR6, DLSS, Ray Tracing</p>
+            <p>Preço: R$ 1.849,99</p>
+            <button onclick="adicionarAoCarrinho('Placa de Vídeo RTX', 1849.99)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="../siteproffi/img/processador.jpg" alt="Produto 6">
+            <h2>Processador Ryzen 5 </h2>
+            <p>Processador AMD Ryzen 5 4500, 3.6GHz (4.1GHz Max Turbo) Cache 11MB, AM4, Sem Vídeo - 100-100000644BOX</p>
+            <p>Preço: R$ 399,99</p>
+            <button onclick="adicionarAoCarrinho('Processador Ryzen 5', 399.99)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="../siteproffi/img/Gabinete.jpg" alt="Produto 7">
+            <h2>Gabinete Gamer</h2>
+            <p>Gabinete Gamer Rise Mode Z2 Glass, Mid Tower, Lateral em Vidro Temperado, Preto - RM-Z02-02-FB</p>
+            <p>Preço: R$ 89,99</p>
+            <button onclick="adicionarAoCarrinho('Gabinete Gamer', 89.99)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="../siteproffi/img/ssd.jpg" alt="Produto 8">
+            <h2>SSD 480 GB</h2>
+            <p>SSD 480 GB Kingston A400, SATA, Leitura: 500MB/s e Gravação: 450MB/s - SA400S37/480G</p>
+            <p>Preço: R$ 153,99</p>
+            <button onclick="adicionarAoCarrinho('SSD 480 GB', 153.99)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="../siteproffi/img/fone.jpg" alt="Produto 9">
+            <h2>Headphone</h2>
+            <p>Headphone Fone de Ouvido Havit HV-H2002d, Gamer, com Microfone, Falante 53mm, Plug 3.5mm:(Preto)</p>
+            <p>Preço: R$149,99</p>
+            <button onclick="adicionarAoCarrinho('Headphone', 149.99)">Adicionar ao Carrinho</button>
+        </div>
+
+        <!-- Adicione mais produtos aqui -->
+
+    </div>
+
+    <div class="carrinho">
+        <h2>Carrinho</h2>
+        <ul id="carrinho-lista">
+        </ul>
+        <div id="carrinho-total">
+            <p>Total: <span id="total-valor">$0.00</span></p>
+        </div>
+        <button>Comprar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
